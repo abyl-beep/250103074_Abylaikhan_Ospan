@@ -3,7 +3,7 @@ public class BulbAdapter implements SmartDevice {
     private static final int K = 4;
     public BulbAdapter(LegacyBulb bulb) {
         if (bulb == null) {
-            throw new IllegalArgumentException("LegacyBulb не может быть null");
+            throw new IllegalArgumentException("LegacyBulb cant be null");
         }
         this.bulb = bulb;
     }
